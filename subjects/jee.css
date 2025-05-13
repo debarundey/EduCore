@@ -1,0 +1,190 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    line-height: 1.6;
+}
+
+header {
+	height: 25vh;
+	/* background: #000; */
+} 
+.black {
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+nav {
+	/*padding-top: 20px;
+	padding-bottom: 20px;*/
+	top: 0;
+	position: fixed;
+	display: flex;
+	width: 100%;
+	z-index: 1000;
+	background: rgba(172, 255, 47, 0.718);
+	justify-content: space-around;
+	transition: 1.5s;
+	align-items: center;
+}
+nav ul {
+	display: flex;
+	align-items: center;
+}
+nav ul li {
+	list-style: none;
+	margin: 5px 10px;
+}
+nav ul li a {
+	padding: 2px 10px;
+	color: #2e2e2e;
+	cursor: pointer;
+	transition: .5s;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	color: #fff;
+	border-radius: 5px;
+	background: #ffdf3f;
+}
+.active {
+	color: #fff;
+	border-radius: 5px;
+	background: #ffdf3f;
+}
+#lesson-plans {
+    margin-top: 0;
+}
+
+.container {
+    /*max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;*/
+
+    /*background-color: aqua;*/
+    /*width: 80%;*/
+    justify-content: space-around;
+    text-align: justify;
+    margin-top: 175px;
+    padding-left: 10%;
+    padding-right: 10%;
+    /*margin-left: 5em;*/
+}
+
+.content {
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.lesson-plan {
+    margin-bottom: 3em;
+}
+
+.lesson-plan h3 {
+    font-size: 24px;
+    /*margin-bottom: 10px;*/
+
+    color: #2e2e2e;
+    /*font-weight: bold;*/
+    text-decoration: none;
+
+    /*padding: 2px 10px;
+	cursor: pointer;*/
+	transition: .5s;
+}
+
+.lesson-plan p {
+    font-size: 16px;
+}
+
+.lesson-plan a {
+    display: inline-block;
+    margin-top: 10px;
+    background: /*#333; #ffdf3f;*/ linear-gradient(to left,rgba(0, 255, 200, 0.662),rgba(229, 255, 0, 0.996));
+    color: #2e2e2e;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    /*margin-bottom: 20px;*/
+}
+
+.lesson-plan a:hover {
+    color: #fff;
+    border-radius: 5px;
+    background: /*rgba(172, 255, 47, 0.718);*/ #ffdf3f;
+    cursor: pointer;
+    transition: background-color 1s;
+    text-decoration: none;
+    /*padding: 3px 15px;
+    min-width: 10.5em;*/
+    display: inline-block;
+}
+
+footer {
+    /*text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;*/
+
+    background-color: rgba(255, 225, 0, 0.703);
+    color: black;
+    text-align: center;
+    padding: 30px;
+    /*margin-top: 3em;*/
+}
+
+footer p {
+    text-align: center;
+}
+
+footer p span:hover {
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+footer p img{
+	width: 22px;
+    margin-top: 0;
+}
+
+footer p img:hover{
+	transform: scale(1.5);
+    transition: all 1s;
+    cursor: pointer;
+}
+
+footer .social-media img{
+	width: 30px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+footer .social-media img:hover {
+	transform: scale(1.5);
+    transition: all 1s;
+    cursor: pointer;
+}
+
+/*footer a {
+    text-decoration: none;
+    color: #2e2e2e;
+    font-weight: bold
+}
+
+footer a:hover {
+    color: rgba(172, 255, 47, 0.718);
+    padding: 2px 10px;
+    border: 2px solid rgba(172, 255, 47, 0.718);
+    border-radius: 20px;
+    transition: all 1s;
+    cursor: pointer;
+}*/
